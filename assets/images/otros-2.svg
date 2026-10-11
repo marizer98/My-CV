@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <rect width="800" height="600" fill="#EBE7DE"/>
+  <!-- Vector & Conceptual Illustration Mockup -->
+  <g transform="translate(180, 50)">
+    <rect width="440" height="500" rx="4" fill="#FFFFFF"/>
+    
+    <!-- Stylized architectural illustration -->
+    <g transform="translate(45, 40)">
+      <rect width="350" height="340" fill="#22252A"/>
+      <!-- Moon / Sun -->
+      <circle cx="270" cy="110" r="45" fill="#EAD9BD"/>
+      
+      <!-- Architectural silhouettes -->
+      <rect x="50" y="160" width="80" height="180" fill="#3D434B"/>
+      <!-- Arch cutouts -->
+      <path d="M70,220 A20,20 0 0,1 110,220 L110,340 L70,340 Z" fill="#22252A"/>
+      
+      <rect x="140" y="100" width="90" height="240" fill="#D95338" opacity="0.95"/>
+      <path d="M165,170 A20,20 0 0,1 205,170 L205,340 L165,340 Z" fill="#22252A"/>
+      
+      <rect x="240" y="190" width="70" height="150" fill="#5A636E"/>
+      
+      <!-- Minimalist shadow projection -->
+      <polygon points="50,340 10,340 140,240 140,340" fill="#17191C" opacity="0.6"/>
+    </g>
+
+    <text x="45" y="420" fill="#141414" font-family="'Cormorant Garamond', Georgia, serif" font-size="28">Arquitecturas Silenciosas</text>
+    <text x="45" y="445" fill="#777" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" letter-spacing="1.5">ILUSTRACIÓN VECTORIAL Y ESTUDIO DE SOMBRAS</text>
+    <text x="395" y="445" fill="#999" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" text-anchor="end">SERIE PERSONAL 2026</text>
+  </g>
+</svg>

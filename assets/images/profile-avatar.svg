@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="100%" height="100%">
+  <defs>
+    <linearGradient id="avatarBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2EEE7"/>
+      <stop offset="100%" stop-color="#E2DDD4"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="750" fill="url(#avatarBg)"/>
+  
+  <!-- Subtle Editorial Lines -->
+  <line x1="40" y1="40" x2="560" y2="40" stroke="#DDD7CC" stroke-width="1"/>
+  <line x1="40" y1="710" x2="560" y2="710" stroke="#DDD7CC" stroke-width="1"/>
+  <line x1="40" y1="40" x2="40" y2="710" stroke="#DDD7CC" stroke-width="1"/>
+  <line x1="560" y1="40" x2="560" y2="710" stroke="#DDD7CC" stroke-width="1"/>
+  
+  <!-- Minimalist Designer Silhouette / Portrait composition -->
+  <g transform="translate(150, 140)">
+    <!-- Head / Neck Silhouette with clean aesthetic lines -->
+    <path d="M150,220 C110,220 80,185 80,135 C80,85 110,40 150,40 C190,40 220,85 220,135 C220,185 190,220 150,220 Z" fill="#2E2C29"/>
+    
+    <!-- Hair / Graphic accent -->
+    <path d="M100,110 C90,60 140,25 185,35 C215,40 225,85 220,120 C205,100 180,85 150,90 C120,95 105,115 100,110 Z" fill="#D95338" opacity="0.9"/>
+    
+    <!-- Torso / Coat -->
+    <path d="M40,360 L70,250 C95,235 125,230 150,230 C175,230 205,235 230,250 L260,360 Z" fill="#1A1918"/>
+    
+    <!-- Minimalist collar accent -->
+    <polygon points="150,235 130,290 170,290" fill="#FBF9F5"/>
+  </g>
+  
+  <!-- Subtle Badge indicating photo placeholder -->
+  <rect x="150" y="560" width="300" height="45" rx="3" fill="#FFFFFF" opacity="0.95"/>
+  <text x="300" y="588" fill="#141414" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="12" letter-spacing="1" text-anchor="middle">[ESPACIO PARA TU FOTOGRAFÍA]</text>
+  <text x="300" y="630" fill="#75716B" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" text-anchor="middle">Reemplaza con tu foto en assets/images/tu-foto.jpg</text>
+</svg>

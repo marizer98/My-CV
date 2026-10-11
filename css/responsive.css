@@ -1,0 +1,218 @@
+/* ==============================================================================
+   PORTAFOLIO DE DISEÑO GRÁFICO — ADAPTABILIDAD RESPONSIVE
+   Móvil, Tablet y Escritorio
+   ============================================================================== */
+
+/* ------------------------------------------------------------------------------
+   Tablets y pantallas medianas (≤ 1024px)
+   ------------------------------------------------------------------------------ */
+@media (max-width: 1024px) {
+  :root {
+    --spacing-xxl: 5rem;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .hero-visual {
+    max-width: 650px;
+    margin: 0 auto;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .about-portrait-frame {
+    position: static;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+
+  .experience-edu-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .contact-layout {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+
+/* ------------------------------------------------------------------------------
+   Dispositivos móviles y tablets pequeñas (≤ 768px)
+   ------------------------------------------------------------------------------ */
+@media (max-width: 768px) {
+  :root {
+    --spacing-xxl: 4rem;
+    --spacing-xl: 2.5rem;
+  }
+
+  /* Ocultar navegación tradicional en móviles */
+  .main-nav {
+    display: none;
+  }
+
+  /* Mostrar botón hamburguesa */
+  .mobile-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+  }
+
+  /* Menú desplegable móvil */
+  .mobile-nav-drawer {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 84px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 84px);
+    background-color: var(--bg-primary);
+    padding: 2.5rem 2rem;
+    transform: translateX(100%);
+    transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    z-index: 99;
+    overflow-y: auto;
+    border-top: 1px solid var(--border-subtle);
+  }
+
+  .mobile-nav-drawer.open {
+    transform: translateX(0);
+  }
+
+  .mobile-nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    margin-bottom: 3rem;
+  }
+
+  .mobile-nav-link {
+    font-family: var(--font-display);
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+
+  .mobile-actions {
+    margin-top: auto;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border-subtle);
+  }
+
+  /* Filtros en móvil */
+  .portfolio-filters-bar {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 0.8rem;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .portfolio-filters-bar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .filter-tab {
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  /* Proyectos en 1 columna fluida */
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  /* Habilidades en móvil */
+  .skills-columns {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  /* Modal en móvil */
+  .modal-overlay {
+    padding: 0;
+  }
+
+  .modal-container {
+    max-height: 100vh;
+    height: 100vh;
+    border-radius: 0;
+  }
+
+  .modal-body-scroll {
+    padding: 1.5rem;
+  }
+
+  .modal-top-bar {
+    padding: 0.8rem 1.2rem;
+  }
+
+  .modal-info-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1.2rem;
+  }
+
+  .detail-block {
+    padding: 1.4rem;
+  }
+
+  /* Reconocimientos en móvil */
+  .recognition-row {
+    grid-template-columns: 1fr;
+    gap: 0.3rem;
+  }
+
+  /* Footer en móvil */
+  .footer-top {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 1.2rem;
+    text-align: center;
+  }
+}
+
+/* ------------------------------------------------------------------------------
+   Móviles pequeños (≤ 480px)
+   ------------------------------------------------------------------------------ */
+@media (max-width: 480px) {
+  .hero-headline {
+    font-size: 2.2rem;
+  }
+
+  .hero-ctas {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-ctas .btn {
+    width: 100%;
+  }
+
+  .card-content {
+    padding: 1.3rem;
+  }
+
+  .contact-card-box {
+    padding: 1.5rem;
+  }
+
+  .contact-email-link {
+    font-size: 1.25rem;
+    word-break: break-all;
+  }
+}

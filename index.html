@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mariana Zermeño — Diseñadora Gráfica &amp; Portafolio Creativo</title>
+  
+  <!-- Metadatos de SEO y Redes Sociales -->
+  <meta name="description" content="Portafolio profesional de diseño gráfico, identidad visual, diseño editorial, packaging y experiencias digitales." />
+  <meta name="author" content="Mariana Silva" />
+  <meta name="keywords" content="diseño gráfico, branding, diseño editorial, packaging, UI/UX, dirección de arte, portafolio creativo" />
+  
+  <!-- Open Graph / Redes Sociales -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Mariana Zermeño — Diseñadora Gráfica &amp; Portafolio" />
+  <meta property="og:description" content="Diseño ideas, construyo identidades y transformo conceptos en experiencias visuales." />
+  <meta property="og:image" content="assets/images/hero-cover.svg" />
+
+  <!-- Preconexión a Tipografías Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Hojas de Estilo -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+
+  <!-- ========================================================================
+       A. ENCABEZADO Y NAVEGACIÓN
+       ======================================================================== -->
+  <header class="site-header" role="banner">
+    <div class="container header-container">
+      
+      <!-- Nombre Profesional / Logotipo de Marca -->
+      <a href="#inicio" class="brand-wrapper" aria-label="Ir al inicio">
+        <span class="brand-name" id="header-brand-name">Mariana Silva</span>
+        <span class="brand-role" id="header-brand-role">Diseño Gráfico</span>
+      </a>
+
+      <!-- Menú de Navegación de Escritorio -->
+      <nav class="main-nav" aria-label="Navegación principal">
+        <ul class="nav-list">
+          <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+          <li><a href="#portafolio" class="nav-link">Portafolio</a></li>
+          <li><a href="#sobre-mi" class="nav-link">Sobre mí</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <!-- Acciones de Encabezado: Descarga de CV -->
+      <div class="header-actions">
+        <a href="assets/documents/CV_Mariana_Diseno.pdf" download="CV_Mariana_Silva_Diseno.pdf" class="cv-download-btn" id="header-cv-btn" title="Descargar currículum vitae en formato PDF">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Descargar CV</span>
+        </a>
+
+        <!-- Botón Hamburguesa para Móvil -->
+        <button class="mobile-toggle" id="mobile-menu-toggle" aria-label="Abrir menú de navegación" aria-expanded="false" type="button">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Menú Desplegable Móvil -->
+    <div class="mobile-nav-drawer" id="mobile-nav-menu" aria-label="Menú móvil">
+      <ul class="mobile-nav-list">
+        <li><a href="#inicio" class="mobile-nav-link">Inicio</a></li>
+        <li><a href="#portafolio" class="mobile-nav-link">Portafolio</a></li>
+        <li><a href="#sobre-mi" class="mobile-nav-link">Sobre mí</a></li>
+        <li><a href="#contacto" class="mobile-nav-link">Contacto</a></li>
+      </ul>
+      <div class="mobile-actions">
+        <a href="assets/documents/CV_Mariana_Diseno.pdf" download="CV_Mariana_Silva_Diseno.pdf" class="btn btn-outline" style="width: 100%;" id="mobile-cv-btn">
+          Descargar CV (PDF)
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========================================================================
+         B. PRESENTACIÓN PRINCIPAL (HERO)
+         ======================================================================== -->
+    <section id="inicio" class="hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <div class="hero-content reveal-on-scroll">
+            <span class="hero-badge" id="hero-badge">Estudio de Diseño Gráfico</span>
+            <h1 class="hero-headline" id="hero-headline">
+              Diseño ideas, construyo identidades y transformo conceptos en experiencias visuales.
+            </h1>
+            <p class="hero-intro" id="hero-intro">
+              [ESPACIO EDITABLE: Soy diseñadora gráfica enfocada en identidades visuales memorables, diseño editorial con rigor tipográfico y experiencias digitales limpias y funcionales.]
+            </p>
+            <div class="hero-ctas">
+              <a href="#portafolio" class="btn btn-primary" id="hero-cta-primary">
+                Explorar proyectos <span class="arrow">↓</span>
+              </a>
+              <a href="#contacto" class="btn btn-outline" id="hero-cta-secondary">
+                Contactar
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal-on-scroll">
+            <figure class="hero-visual-frame">
+              <img src="assets/images/hero-cover.svg" alt="Composición editorial de proyectos de diseño" id="hero-cover-img" width="1200" height="800" />
+              <figcaption class="hero-visual-caption">Selección de Proyectos</figcaption>
+            </figure>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         C. PORTAFOLIO POR CATEGORÍAS
+         ======================================================================== -->
+    <section id="portafolio" class="section portfolio-section">
+      <div class="container">
+        
+        <header class="portfolio-header-wrap reveal-on-scroll">
+          <div>
+            <span class="section-badge">Selección de Trabajos</span>
+            <h2 class="section-title">Portafolio</h2>
+            <p class="section-lead">
+              Una cuidada selección de proyectos organizados por disciplinas creativas: editorial, digital, identidad, packaging y exploraciones gráficas.
+            </p>
+          </div>
+
+          <!-- Pestañas de Filtrado por Categorías -->
+          <nav class="portfolio-filters-bar" id="portfolio-filters" aria-label="Filtrar proyectos por categoría">
+            <!-- Se generan dinámicamente desde js/data.js -->
+          </nav>
+        </header>
+
+        <!-- Cuadrícula de Proyectos -->
+        <div class="projects-grid" id="projects-grid">
+          <!-- Las tarjetas de proyectos se inyectan dinámicamente desde js/data.js -->
+        </div>
+
+        <!-- Estado vacío si una categoría no contiene elementos -->
+        <div class="portfolio-empty-state" id="portfolio-empty-state">
+          <p>No se encontraron proyectos en esta categoría por el momento.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         D. SOBRE MÍ
+         ======================================================================== -->
+    <section id="sobre-mi" class="section about-section">
+      <div class="container">
+        
+        <header class="section-header reveal-on-scroll">
+          <span class="section-badge">Perfil Profesional</span>
+          <h2 class="section-title">Sobre mí</h2>
+          <p class="section-lead" id="about-subtitle">
+            Diseño con propósito, rigor editorial y sensibilidad visual.
+          </p>
+        </header>
+
+        <!-- Grid de Fotografía y Biografía -->
+        <div class="about-grid">
+          
+          <div class="about-portrait-column reveal-on-scroll">
+            <figure class="about-portrait-frame">
+              <img src="assets/images/profile-avatar.svg" alt="Fotografía de la diseñadora" id="about-avatar-img" width="600" height="750" />
+            </figure>
+          </div>
+
+          <div class="about-bio-wrap reveal-on-scroll">
+            
+            <div id="about-bio-container">
+              <!-- Los párrafos de biografía se cargan dinámicamente desde js/data.js -->
+            </div>
+
+            <!-- Filosofía y Enfoque Creativo -->
+            <aside class="philosophy-card">
+              <h3 class="philosophy-title">Filosofía de diseño</h3>
+              <blockquote class="philosophy-quote" id="philosophy-quote">
+                “Menos artificio, mayor significado. El diseño debe clarificar ideas complejas y otorgarles una presencia estética atemporal.”
+              </blockquote>
+              <p class="philosophy-desc" id="philosophy-desc">
+                Entiendo el diseño gráfico como un puente entre la estrategia y la emoción. No busco simplemente embellecer una superficie, sino construir sistemas coherentes donde cada decisión tipográfica, cromática y compositiva responda a un propósito claro.
+              </p>
+            </aside>
+
+          </div>
+
+        </div>
+
+        <!-- Bloque de Habilidades y Herramientas -->
+        <div class="skills-block reveal-on-scroll">
+          <div class="skills-columns">
+            <div>
+              <h3 class="skills-subgroup-title">Disciplinas &amp; Enfoques</h3>
+              <ul class="pill-list" id="skills-disciplines-list">
+                <!-- Se cargan desde js/data.js -->
+              </ul>
+            </div>
+            <div>
+              <h3 class="skills-subgroup-title">Software &amp; Herramientas</h3>
+              <ul class="pill-list" id="skills-tools-list">
+                <!-- Se cargan desde js/data.js -->
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experiencia Profesional y Formación Académica -->
+        <div class="experience-edu-grid reveal-on-scroll">
+          
+          <div>
+            <h3 class="subheading-editorial">Experiencia Profesional</h3>
+            <div class="timeline" id="experience-timeline">
+              <!-- Se cargan desde js/data.js -->
+            </div>
+          </div>
+
+          <div>
+            <h3 class="subheading-editorial">Formación Académica</h3>
+            <div class="timeline" id="education-list">
+              <!-- Se cargan desde js/data.js -->
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Cursos, Reconocimientos o Colaboraciones -->
+        <div class="recognitions-block reveal-on-scroll">
+          <h3 class="skills-subgroup-title">Cursos, Reconocimientos &amp; Muestras</h3>
+          <div class="recognitions-list" id="recognitions-list">
+            <!-- Se cargan desde js/data.js -->
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         E. CONTACTO
+         ======================================================================== -->
+    <section id="contacto" class="section contact-section">
+      <div class="container">
+        <div class="contact-layout reveal-on-scroll">
+          
+          <div>
+            <span class="section-badge">Conversemos</span>
+            <h2 class="contact-heading">¿Tienes un proyecto en mente? Creemos algo memorable.</h2>
+            <p class="contact-desc">
+              Estoy disponible para identidades visuales, publicaciones editoriales, dirección de arte y proyectos digitales. Escríbeme directamente por correo para conversar sobre ideas, tiempos y colaboraciones.
+            </p>
+            
+            <div class="social-links-grid">
+              <a href="https://linkedin.com/in/tu-usuario" target="_blank" rel="noopener noreferrer" class="social-pill" id="social-linkedin">
+                <span>LinkedIn</span> <span class="arrow">↗</span>
+              </a>
+              <a href="https://behance.net/tu-usuario" target="_blank" rel="noopener noreferrer" class="social-pill" id="social-behance">
+                <span>Behance</span> <span class="arrow">↗</span>
+              </a>
+              <a href="https://instagram.com/tu-usuario" target="_blank" rel="noopener noreferrer" class="social-pill" id="social-instagram">
+                <span>Instagram</span> <span class="arrow">↗</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-card-box">
+            <span class="contact-direct-label">Contacto Directo</span>
+            <a href="mailto:hola@tudominio.com" class="contact-email-link" id="contact-email-link">
+              hola@tudominio.com
+            </a>
+            <a href="mailto:hola@tudominio.com" class="btn btn-primary" id="contact-mail-btn">
+              Escribirme por correo <span class="arrow">→</span>
+            </a>
+            <div class="contact-notice">
+              <strong>Nota sobre este enlace:</strong> Este botón abre tu cliente de correo directamente (Gmail, Outlook, Apple Mail), garantizando que tu mensaje llegue de forma segura sin intermediarios ni formularios ficticios.
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       F. PIE DE PÁGINA (FOOTER)
+       ======================================================================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      
+      <div class="footer-top">
+        <div class="footer-quote-wrap">
+          <blockquote class="footer-quote" id="footer-quote">
+            “El buen diseño es discreto, honesto, comprensible y tan poco diseño como sea posible.”
+          </blockquote>
+          <cite class="footer-author" id="footer-author">Dieter Rams</cite>
+        </div>
+
+        <button type="button" class="back-to-top" id="back-to-top-btn" aria-label="Volver al inicio de la página">
+          <span>Volver arriba</span>
+          <span>↑</span>
+        </button>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © <span id="footer-year">2026</span> <strong id="footer-name">Mariana Silva</strong>. Todos los derechos reservados.
+        </div>
+        <div>
+          Diseñado con estética editorial &amp; código limpio.
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       MODAL DE DETALLE DE PROYECTO (ACCESIBLE Y NAVEGABLE)
+       ======================================================================== -->
+  <div class="modal-overlay" id="project-modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-container">
+      
+      <!-- Barra superior con controles de navegación y cierre -->
+      <div class="modal-top-bar">
+        <div class="modal-nav-controls">
+          <button class="modal-nav-btn" id="modal-prev-btn" type="button" aria-label="Proyecto anterior">
+            <span>←</span> Anterior
+          </button>
+          <button class="modal-nav-btn" id="modal-next-btn" type="button" aria-label="Proyecto siguiente">
+            Siguiente <span>→</span>
+          </button>
+        </div>
+
+        <button class="modal-close-button" id="modal-close-btn" type="button" aria-label="Cerrar ventana de detalle">
+          <span>Cerrar</span> ✕
+        </button>
+      </div>
+
+      <!-- Contenedor con scroll del proyecto -->
+      <div class="modal-body-scroll" id="modal-project-content">
+        <!-- El contenido detallado se renderiza dinámicamente con js/modal.js -->
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Scripts de la Aplicación -->
+  <script src="js/data.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>

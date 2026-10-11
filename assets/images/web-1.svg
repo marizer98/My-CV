@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <rect width="800" height="600" fill="#F0EDE6"/>
+  <!-- Browser Frame -->
+  <g transform="translate(60, 50)">
+    <rect width="680" height="500" rx="8" fill="#FFFFFF"/>
+    <!-- Browser Top Bar -->
+    <rect width="680" height="40" rx="8" fill="#F8F7F4"/>
+    <circle cx="25" cy="20" r="5" fill="#E87C6C"/>
+    <circle cx="42" cy="20" r="5" fill="#F2C052"/>
+    <circle cx="59" cy="20" r="5" fill="#69C27C"/>
+    <!-- Address Bar -->
+    <rect x="120" y="10" width="440" height="20" rx="4" fill="#EFECE6"/>
+    <text x="280" y="24" fill="#777" font-family="'Plus Jakarta Sans', sans-serif" font-size="10">estudiovanguardia.com</text>
+    <line x1="0" y1="40" x2="680" y2="40" stroke="#E5E0D6" stroke-width="1"/>
+
+    <!-- Website Content -->
+    <!-- Nav -->
+    <text x="35" y="75" fill="#141414" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="14" letter-spacing="1">ESTUDIO VANGUARDIA</text>
+    <text x="440" y="75" fill="#666" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Proyectos</text>
+    <text x="510" y="75" fill="#666" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Filosofía</text>
+    <text x="580" y="75" fill="#141414" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="11">Contacto</text>
+
+    <!-- Web Hero -->
+    <rect x="35" y="105" width="370" height="350" fill="#F7F5F0"/>
+    <text x="55" y="160" fill="#141414" font-family="'Cormorant Garamond', Georgia, serif" font-size="38" font-weight="300">Espacios que dialogan con el entorno.</text>
+    <text x="55" y="230" fill="#666" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">Arquitectura sostenible y diseño interior minimalista desarrollado con materiales nobles.</text>
+    <rect x="55" y="270" width="130" height="36" rx="2" fill="#141414"/>
+    <text x="75" y="293" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Ver Obras →</text>
+
+    <!-- Web Hero Image Side -->
+    <rect x="420" y="105" width="225" height="350" fill="#24282B"/>
+    <polygon points="435,430 500,240 560,430" fill="#3D454A"/>
+    <polygon points="510,430 570,180 630,430" fill="#525B61"/>
+    <circle cx="580" cy="180" r="30" fill="#D95338" opacity="0.8"/>
+  </g>
+</svg>

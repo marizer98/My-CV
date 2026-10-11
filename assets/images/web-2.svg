@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <rect width="800" height="600" fill="#E8E4DC"/>
+  <!-- Tablet / Screen Mockup -->
+  <g transform="translate(80, 50)">
+    <rect width="640" height="500" rx="10" fill="#FFFFFF"/>
+    <!-- App Header -->
+    <text x="35" y="50" fill="#141414" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="14" letter-spacing="2">OBJETOS / EDICIÓN 03</text>
+    <text x="560" y="50" fill="#141414" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">Bolsa (2)</text>
+    <line x1="35" y1="70" x2="605" y2="70" stroke="#ECE7DE" stroke-width="1"/>
+
+    <!-- Grid of Products -->
+    <!-- Item 1 -->
+    <rect x="35" y="90" width="175" height="230" fill="#F6F3ED" rx="3"/>
+    <circle cx="122" cy="190" r="45" fill="#D95338" opacity="0.8"/>
+    <text x="45" y="345" fill="#141414" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="12">Lámpara Arc No. 1</text>
+    <text x="45" y="365" fill="#888" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Cerámica &amp; Latón — $180</text>
+
+    <!-- Item 2 -->
+    <rect x="232" y="90" width="175" height="230" fill="#1E2022" rx="3"/>
+    <rect x="270" y="145" width="100" height="120" rx="4" fill="#32373B"/>
+    <text x="242" y="345" fill="#141414" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="12">Florero Cilíndrico</text>
+    <text x="242" y="365" fill="#888" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Vidrio Soplado — $140</text>
+
+    <!-- Item 3 -->
+    <rect x="430" y="90" width="175" height="230" fill="#EDE7DD" rx="3"/>
+    <polygon points="517,140 570,230 465,230" fill="#C2B7A5"/>
+    <text x="440" y="345" fill="#141414" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="12">Bandeja Escultural</text>
+    <text x="440" y="365" fill="#888" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Piedra Caliza — $210</text>
+
+    <!-- Promo Banner below -->
+    <rect x="35" y="395" width="570" height="80" fill="#141414" rx="4"/>
+    <text x="60" y="440" fill="#FFFFFF" font-family="'Cormorant Garamond', Georgia, serif" font-size="24" font-style="italic">Diseño de interfaz con enfoque e-commerce editorial</text>
+    <text x="500" y="440" fill="#EAE5DC" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Ver Caso →</text>
+  </g>
+</svg>
