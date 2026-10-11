@@ -14,7 +14,7 @@ window.PORTFOLIO_DATA = {
   // 1. INFORMACIÓN PERSONAL Y DE CONTACTO
   // ----------------------------------------------------------------------------
   profile: {
-    name: "Mariana Zermeño", // Tu nombre profesional
+    name: "Mariana Rdz", // Tu nombre profesional
     role: "Diseñadora Gráfica & Directora de Arte",
     location: "MTY / Disponible para proyectos remotos",
     email: "hola@tudominio.com", // Tu correo real
